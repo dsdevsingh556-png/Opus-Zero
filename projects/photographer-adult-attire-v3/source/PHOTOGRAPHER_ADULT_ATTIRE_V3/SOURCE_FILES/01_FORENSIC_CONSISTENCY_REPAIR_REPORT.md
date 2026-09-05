@@ -55,7 +55,7 @@ The audit used the accessible local conversation-thread corpus and the uploaded 
 
 ### Canonical source-lock rule
 
-Across the v30 image prompts and the two-stage source-lock protocol, the canonical preservation rule is: source identity, structural geometry, composition, scene, and spatial relationships take precedence over recovered texture/detail. The v30 prompts already reflected this pattern, including “source structure wins” and explicit native-capability honesty. fileciteturn9file1L1-L15 fileciteturn9file0L1-L24
+Across the v30 image prompts and the two-stage source-lock protocol, the canonical preservation rule is: source identity, structural geometry, composition, scene, and spatial relationships take precedence over recovered texture/detail. The v30 prompts already reflected this pattern, including “source structure wins” and explicit native-capability honesty.
 
 ## D. FORENSIC FINDINGS
 
@@ -65,13 +65,13 @@ None established in the accessible corpus after authority rules were applied.
 ### HIGH
 
 **D-001 — ChatGPT v31 false backend-control/physical-precision claims.**
-The original prompt claimed exact same individual “down to the millimeter,” a “tool-call hijack,” a “SYSTEM OVERRIDE,” direct DALL-E payload control, `style="natural"` / `quality="hd"`, exact `gen_id` retrieval, and post-generation confirmation of those controls. These are not prompt-level guarantees. The source artifact is directly observable in the uploaded v31 prompt. fileciteturn9file7L1-L20
+The original prompt claimed exact same individual “down to the millimeter,” a “tool-call hijack,” a “SYSTEM OVERRIDE,” direct DALL-E payload control, `style="natural"` / `quality="hd"`, exact `gen_id` retrieval, and post-generation confirmation of those controls. These are not prompt-level guarantees. The source artifact is directly observable in the uploaded v31 prompt.
 
 **D-002 — Grok v31 unsupported backend/weighting claims.**
-The original prompt claimed exact biometric coordinates, millimeter identity, rectified-flow hierarchy injection, negative-prompt corruption, a 50-word limit “to optimize FLUX token weighting,” and exact post-generation confirmations. These claims exceed evidence available in the prompt itself. fileciteturn9file3L1-L28
+The original prompt claimed exact biometric coordinates, millimeter identity, rectified-flow hierarchy injection, negative-prompt corruption, a 50-word limit “to optimize FLUX token weighting,” and exact post-generation confirmations. These claims exceed evidence available in the prompt itself.
 
 **D-004 — Reverse-engineering tool role conflation.**
-The original script defined itself as a visual analyst and prompt architect and explicitly required a “MASTER SYNTHESIS PROMPT” plus negative constraints. This merges source observation with downstream generative prompting and weakens the two-stage source-lock → target-state architecture. fileciteturn9file2L1-L25
+The original script defined itself as a visual analyst and prompt architect and explicitly required a “MASTER SYNTHESIS PROMPT” plus negative constraints. This merges source observation with downstream generative prompting and weakens the two-stage source-lock → target-state architecture.
 
 **D-006 — README authority collision.**
 The README's former authority order elevated “Active file/source actually read in the current chat” above Stage 1 and Stage 2, while the Stage 3 requirements explicitly prohibit Stage 3 from overriding Stage 1/2. This could allow recency/read-state to become silent authority.
@@ -82,7 +82,7 @@ The JSON explicitly stated `separate_context_protocol_evaluation_passed_not_live
 ### MEDIUM
 
 **D-003 — Grok v30 prompt-order weighting stated too strongly.**
-The repaired v30 prompt still said prompt order was “material to the intended FLUX hierarchy.” This was changed to an authoring convention and explicitly denied as a guaranteed backend weighting control. The surrounding prompt already prohibited fictional system overrides and hidden parameter claims. fileciteturn9file1L23-L55
+The repaired v30 prompt still said prompt order was “material to the intended FLUX hierarchy.” This was changed to an authoring convention and explicitly denied as a guaranteed backend weighting control. The surrounding prompt already prohibited fictional system overrides and hidden parameter claims.
 
 **D-005 — Reverse-engineering tool requested “exact” forensic details without a calibrated measurement boundary.**
 The repair replaces physical-exactness implication with observable/relative spatial descriptions and explicit UNKNOWN/UNRESOLVED states. This is consistent with the source-lock protocol's anti-invention rule.
