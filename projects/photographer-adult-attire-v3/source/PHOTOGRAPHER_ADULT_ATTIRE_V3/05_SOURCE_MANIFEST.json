@@ -1,0 +1,41 @@
+{
+  "workflow_version": "V3-GROK-ADULT-ATTIRE",
+  "source_files": [
+    {
+      "id": "SOURCE-01",
+      "filename": "01_REVERSE_ENGINEERING_TOOL_REPAIRED.py",
+      "sha256": "cdd3083b8b221937a5efb321dc1f5621af12d3a5813fb43a67f78a3f03f1f350",
+      "character_count": 7331
+    },
+    {
+      "id": "SOURCE-02",
+      "filename": "01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md",
+      "sha256": "6ef40a8310504d787ff796ca722d6d5760a96e3bdecdb56bca5adfb0cf7265f4",
+      "character_count": 22820
+    },
+    {
+      "id": "SOURCE-03",
+      "filename": "02_CHATGPT_DALLE3_BIOMETRIC_V31_REPAIRED.md",
+      "sha256": "c4eace7d7726861922bf2e2800c571e2386ba7a82010226b0753a920bb48b1d1",
+      "character_count": 5698
+    },
+    {
+      "id": "SOURCE-03-GROK",
+      "filename": "03_GROK_IMAGINE_SOURCE_LOCKED_EDITOR.md",
+      "sha256": "e22b6ef2d9cbc79769c176899b28c6c8b8edfd163889a2268139255b1e851fae",
+      "character_count": 5263
+    },
+    {
+      "id": "LAW",
+      "filename": "01_PHOTOGRAPHER_LAW.md",
+      "sha256": "02f9be8f93d21441788471936058e320374630002067caab8a14e798a8b1d44a",
+      "character_count": 1559
+    },
+    {
+      "id": "COVERAGE",
+      "filename": "02_COVERAGE_LOCK.md",
+      "sha256": "1c15256bf154948e0410b40d78de811cbdac8e0ff3418eb27df3a487d90366cb",
+      "character_count": 650
+    }
+  ]
+}
