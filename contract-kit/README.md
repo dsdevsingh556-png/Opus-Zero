@@ -1,7 +1,7 @@
 # OPUS ZERO — Inter-Agent Contract Kit
 VERSION: 1.2.0
 
-What most “two bots” setups lack: a published interface.
+What most "two bots" setups lack: a published interface.
 
 ## Included
 1. `HANDOFF_TEMPLATE.md` — copy-ready handoff
