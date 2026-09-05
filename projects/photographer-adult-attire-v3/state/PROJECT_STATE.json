@@ -13,16 +13,16 @@
     "Shape B: GitHub pack + skills only (no web app in this approval)"
   ],
   "requirement_lock": false,
-  "research_state": "INGEST_COMPLETE_PENDING_VERIFY",
+  "research_state": "INGEST_VERIFIED",
   "architecture_state": "LAYOUT_SEEDED",
   "current_artifact": "artifacts/INGEST_INVENTORY.json",
   "current_version": "0.1.0-ingest",
   "forensic_status": "NOT_RUN",
   "qa_status": "NOT_RUN",
   "last_event_id": "EVT-20260905-INGEST-001",
-  "next_action": "Verify GitHub commit under projects/photographer-adult-attire-v3/; CoS may renew Builder Mode for next phase. No package-complete claim.",
+  "next_action": "CoS may renew Builder Mode for next phase. No package-complete claim.",
   "persistence_status": {
-    "github": "PENDING_PUSH",
+    "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
@@ -30,15 +30,20 @@
   "last_assistant_guidance": "SENT handoff shape B ingest",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": null,
+    "commit_sha": "864e69e89797bab6413f9d66ce28328a8ef91569",
     "paths": [
       "projects/photographer-adult-attire-v3/",
       "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/SKILL.md",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/SOURCE_FILES/",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/references/",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/scripts/",
       "projects/photographer-adult-attire-v3/skills/SKILL.md",
-      "projects/photographer-adult-attire-v3/state/PROJECT_STATE.json"
+      "projects/photographer-adult-attire-v3/state/PROJECT_STATE.json",
+      "projects/REGISTRY.md"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-05T09:47:49Z",
+  "updated_at": "2026-09-05T10:00:00Z",
   "updated_by": "BUILDER"
 }
