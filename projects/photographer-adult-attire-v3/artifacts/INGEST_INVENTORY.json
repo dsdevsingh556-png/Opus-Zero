@@ -1,0 +1,131 @@
+{
+  "project_id": "photographer-adult-attire-v3",
+  "source_local_path": "/workspace/vision-a726/PHOTOGRAPHER_ADULT_ATTIRE_V3",
+  "file_count": 29,
+  "files": [
+    {
+      "path": "00_START_HERE.md",
+      "sha256": "c28e748ff74679bfd10e0d1f8b9653b0148d6d6924ff39c0fd2eab6d9b7b364a"
+    },
+    {
+      "path": "01_PROJECT_LAW.md",
+      "sha256": "02f9be8f93d21441788471936058e320374630002067caab8a14e798a8b1d44a"
+    },
+    {
+      "path": "02_WORKFLOW_SEQUENCE.md",
+      "sha256": "b06b151eb78c22ae69674c6e4589eb4d4ee6920b2e0e1b9dcce11e07e0828048"
+    },
+    {
+      "path": "05_SOURCE_MANIFEST.json",
+      "sha256": "fa69fe37ae8ce4b296938958473896ea0003745f00b2f5f6ccf47228eb221380"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6d04454d2a1a19ba8b57776736af61fa2d999f309d4a5dbc7137bfed344506bd"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "7b11f0c2dadc6a2052ced6177ec50a3bb7e4daeeba624ff9ca2b23147beee294"
+    },
+    {
+      "path": "SOURCE_FILES/01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md",
+      "sha256": "6ef40a8310504d787ff796ca722d6d5760a96e3bdecdb56bca5adfb0cf7265f4"
+    },
+    {
+      "path": "SOURCE_FILES/01_REVERSE_ENGINEERING_TOOL_REPAIRED.py",
+      "sha256": "cdd3083b8b221937a5efb321dc1f5621af12d3a5813fb43a67f78a3f03f1f350"
+    },
+    {
+      "path": "SOURCE_FILES/02_CHATGPT_DALLE3_BIOMETRIC_V31_REPAIRED.md",
+      "sha256": "c4eace7d7726861922bf2e2800c571e2386ba7a82010226b0753a920bb48b1d1"
+    },
+    {
+      "path": "custom-instructions/GROK_CUSTOM_INSTRUCTIONS.md",
+      "sha256": "1387ad389e7a84a8fbf96f7355881c6f0be0fb43c95a8c7f6607390f0e2ed564"
+    },
+    {
+      "path": "references/01_PHOTOGRAPHER_LAW.md",
+      "sha256": "02f9be8f93d21441788471936058e320374630002067caab8a14e798a8b1d44a"
+    },
+    {
+      "path": "references/02_COVERAGE_LOCK.md",
+      "sha256": "1c15256bf154948e0410b40d78de811cbdac8e0ff3418eb27df3a487d90366cb"
+    },
+    {
+      "path": "references/03_ATTIRE_TARGET_ADDENDUM.md",
+      "sha256": "7546a9fae5cf8700ab6556b0553be8e7d86196c5d449ce96f655aa0ebfb15d1f"
+    },
+    {
+      "path": "references/adult-fashion/03_ADULT_CONSENT_FRAMEWORK_LAYER.md",
+      "sha256": "7cd10cd64d698d9de7eb75f645e8806db1ab4231aa2d2758799d9fa45edbadb4"
+    },
+    {
+      "path": "references/adult-fashion/04_ADULT_CONSENT_CONFIRMATION.txt",
+      "sha256": "c4e5ec631449f4a5b5ec544e05fb31150af2005f86435876d4749a5b17142c3a"
+    },
+    {
+      "path": "references/adult-fashion/06_ADULT_EDIT_RISK_GATE.md",
+      "sha256": "22afb95a7709dc52dd4ae63475765ddc25c2c4448f1e4fd463a73f719bfcbc67"
+    },
+    {
+      "path": "references/adult-fashion/16_REVEALING_ADULT_FASHION_TRANSLATION_GATE.md",
+      "sha256": "8f12a6bd7822be891445d050e03346fc9214da336a5979daa18a1292e87a916d"
+    },
+    {
+      "path": "references/adult-fashion/LUMINA_V4_TRIGGER_LEDGER_USAGE.md",
+      "sha256": "5653ac19c68154e159d1710e7bdf09743502243124e0bc3cd08a73cb5fb170f2"
+    },
+    {
+      "path": "references/adult-fashion/edit-levels.md",
+      "sha256": "1b280256015fdf9503c31d945f70b65c5ed69f9d3ab29d9606d778a2700845c3"
+    },
+    {
+      "path": "references/adult-fashion/grok-guardrails-2026.md",
+      "sha256": "a5aff19832a650f2c12d17cee99f393a39e7c4981ac097ae01628514278f5cd8"
+    },
+    {
+      "path": "references/v3/01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md",
+      "sha256": "6ef40a8310504d787ff796ca722d6d5760a96e3bdecdb56bca5adfb0cf7265f4"
+    },
+    {
+      "path": "references/v3/01_REVERSE_ENGINEERING_TOOL_REPAIRED.py",
+      "sha256": "cdd3083b8b221937a5efb321dc1f5621af12d3a5813fb43a67f78a3f03f1f350"
+    },
+    {
+      "path": "references/v3/02_CHATGPT_DALLE3_BIOMETRIC_V31_REPAIRED.md",
+      "sha256": "c4eace7d7726861922bf2e2800c571e2386ba7a82010226b0753a920bb48b1d1"
+    },
+    {
+      "path": "references/v3/03_GROK_IMAGINE_SOURCE_LOCKED_EDITOR.md",
+      "sha256": "e22b6ef2d9cbc79769c176899b28c6c8b8edfd163889a2268139255b1e851fae"
+    },
+    {
+      "path": "references/v3/04_FORENSIC_REPORT_TEMPLATE.md",
+      "sha256": "a53ca0d377695fb341284aae332bf8e27a3f297b023b23c89569603402186a5c"
+    },
+    {
+      "path": "references/v3/05_TARGET_RECONSTRUCTION_TEMPLATE.md",
+      "sha256": "54b3cffcdd7d9997411463c01eced95ee02cbdea8dc0bf0bad230ecd9bffcfd5"
+    },
+    {
+      "path": "references/v3/06_PLATFORM_MAP.md",
+      "sha256": "2391ee245d7f880217e91278daf84580cfa6c46e146e799c36be43bc34efcec4"
+    },
+    {
+      "path": "references/v3/07_VERBATIM_CONTRACT.md",
+      "sha256": "3b9e99ee3db49b115043ad374a9585d79539bb18b28094e87ab3d399e53c5f16"
+    },
+    {
+      "path": "scripts/attire_payload_controller.py",
+      "sha256": "b075bf834e5f9ecfa72cc54093b870307b9c3c622e86e3477358639c4b848457"
+    }
+  ],
+  "authority_map": {
+    "project_law": "01_PROJECT_LAW.md + references/01_PHOTOGRAPHER_LAW.md",
+    "workflow": "02_WORKFLOW_SEQUENCE.md + SKILL.md gates",
+    "coverage_lock": "references/02_COVERAGE_LOCK.md",
+    "editor_spec": "references/v3/03_GROK_IMAGINE_SOURCE_LOCKED_EDITOR.md",
+    "source_manifest": "05_SOURCE_MANIFEST.json"
+  },
+  "ingested_at": "2026-09-05T09:47:49Z"
+}
