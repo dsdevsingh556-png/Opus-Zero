@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2.0",
+  "project_id": "photographer-adult-attire-v3",
+  "project_name": "Photographer Adult Attire V3",
+  "current_phase": "INGEST",
+  "current_mode": "READER",
+  "builder_mode_target": null,
+  "builder_mode_expires_after": "one_response",
+  "requirements": [
+    "Adults-only with age-ambiguous BLOCK",
+    "A0-A4 opaque attire ceiling; hard no-nude coverage lock",
+    "Grok Imagine editor per pack",
+    "Shape B: GitHub pack + skills only (no web app in this approval)"
+  ],
+  "requirement_lock": false,
+  "research_state": "INGEST_COMPLETE_PENDING_VERIFY",
+  "architecture_state": "LAYOUT_SEEDED",
+  "current_artifact": "artifacts/INGEST_INVENTORY.json",
+  "current_version": "0.1.0-ingest",
+  "forensic_status": "NOT_RUN",
+  "qa_status": "NOT_RUN",
+  "last_event_id": "EVT-20260905-INGEST-001",
+  "next_action": "Complete remaining pack files (references/, SOURCE_FILES/, scripts/, source SKILL.md); update REGISTRY; then re-verify tree.",
+  "persistence_status": {
+    "github": "PARTIAL",
+    "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
+  },
+  "blockers": [
+    "INGEST_PARTIAL: references/SOURCE_FILES/scripts may still be landing"
+  ],
+  "last_builder_handoff_id": "HO-20260905-PAAv3-001",
+  "last_assistant_guidance": "SENT handoff shape B ingest",
+  "evidence": {
+    "repo": "dsdevsingh556-png/Opus-Zero",
+    "commit_sha": "1362aa797c52f0091607225381f5acfcd6bbc6bb",
+    "paths": [
+      "projects/photographer-adult-attire-v3/",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/",
+      "projects/photographer-adult-attire-v3/skills/SKILL.md",
+      "projects/photographer-adult-attire-v3/state/PROJECT_STATE.json"
+    ],
+    "coda_row_ids": []
+  },
+  "updated_at": "2026-09-05T09:51:47Z",
+  "updated_by": "BUILDER"
+}
