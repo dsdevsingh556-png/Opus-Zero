@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "project_id": "photographer-adult-attire-v3",
   "project_name": "Photographer Adult Attire V3",
-  "current_phase": "ARCHITECTURE",
+  "current_phase": "RELEASE",
   "current_mode": "READER",
   "builder_mode_target": null,
   "builder_mode_expires_after": "one_response",
@@ -16,34 +16,36 @@
   "requirement_lock": true,
   "research_state": "INGEST_VERIFIED",
   "architecture_state": "SHAPE_B_DOCUMENTED",
-  "current_artifact": "architecture/ARCHITECTURE.md",
-  "current_version": "0.4.0-architecture",
+  "current_artifact": "releases/v0.5.0-shape-b/RELEASE_MANIFEST.json",
+  "current_version": "0.5.0-shape-b",
   "forensic_status": "PASS",
   "qa_status": "PASS",
-  "last_event_id": "EVT-20260905-ARCH-001",
-  "next_action": "Await CoS/Devendra next phase (package-claim approval / stop). Shape B architecture documented; no web app; PACKAGE_CLAIM_BLOCKED.",
+  "package_claim": "SHAPE_B_PACK_AND_SKILLS_CLAIMED",
+  "last_event_id": "EVT-20260906-PKG-001",
+  "next_action": "Shape B package claimed. Await CoS/Devendra for stop or new scope (e.g. web app requires new APPROVED).",
   "persistence_status": {
     "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
-  "last_builder_handoff_id": "HO-20260905-PAAv3-004",
-  "last_assistant_guidance": "HO-004 SENT; CoS APPROVED Shape B architecture",
+  "last_builder_handoff_id": "HO-20260906-PAAv3-005",
+  "last_assistant_guidance": "HO-005 SENT; CoS APPROVED Shape B package-claim",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "43e63177c3e6ab5c7134e1d851f8384d309e6735",
+    "commit_sha": "70b1854211d6a28456dc7bef50befc4ee6523b58",
+    "release_tip": "70b1854211d6a28456dc7bef50befc4ee6523b58",
     "architecture_tip": "e479762489ad12be9508dc52c2547bfdc1d7a1e4",
     "forensic_tip": "201d6e125f2406cc326ce05fa1332db89d72a8ee",
     "ingest_tip": "3ea96d6ba7608c5ebf0994e59426b34796240d3f",
     "lock_tip": "3ab17bdf3e1b1fa79be1f3f30c1c7224a024acfa",
     "source_tip": "3ea96d6ba7608c5ebf0994e59426b34796240d3f",
     "paths": [
-      "projects/photographer-adult-attire-v3/architecture/",
+      "projects/photographer-adult-attire-v3/releases/",
       "projects/photographer-adult-attire-v3/state/PROJECT_STATE.json",
-      "projects/photographer-adult-attire-v3/requirements/REQUIREMENTS_LOCKED.md"
+      "projects/photographer-adult-attire-v3/qa/FORENSIC_QA_GATE_RESULT.json"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-05T18:32:00Z",
+  "updated_at": "2026-09-05T18:57:26Z",
   "updated_by": "BUILDER"
 }
