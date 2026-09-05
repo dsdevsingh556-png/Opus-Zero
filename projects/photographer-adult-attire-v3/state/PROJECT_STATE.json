@@ -13,34 +13,33 @@
     "Shape B: GitHub pack + skills only (no web app in this approval)"
   ],
   "requirement_lock": false,
-  "research_state": "INGEST_PARTIAL",
+  "research_state": "INGEST_VERIFIED",
   "architecture_state": "LAYOUT_SEEDED",
   "current_artifact": "artifacts/INGEST_INVENTORY.json",
   "current_version": "0.1.0-ingest",
   "forensic_status": "NOT_RUN",
   "qa_status": "NOT_RUN",
   "last_event_id": "EVT-20260905-INGEST-001",
-  "next_action": "CoS renew: replace SOURCE_FILES/01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md stub (48B LOAD_FROM_FILE) with full report (copy from references/v3 twin).",
+  "next_action": "Await CoS / Assistant for next phase; ingest of pack + skills complete. No package claim (forensic QA gate not run for product package).",
   "persistence_status": {
-    "github": "PARTIAL",
+    "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
-  "blockers": [
-    "SOURCE_FILES/01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md is a 48-byte stub, not full content; references/v3 twin is full"
-  ],
+  "blockers": [],
   "last_builder_handoff_id": "HO-20260905-PAAv3-001",
   "last_assistant_guidance": "SENT handoff shape B ingest",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "7f8e258d3ca3df0b18a88ed0fd70d024071682dc",
+    "commit_sha": "6e0642355cae846b21c9ed2a66bd1083f63e3994",
     "paths": [
       "projects/photographer-adult-attire-v3/",
       "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/",
+      "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/SOURCE_FILES/01_FORENSIC_CONSISTENCY_REPAIR_REPORT.md",
       "projects/photographer-adult-attire-v3/skills/SKILL.md",
       "projects/photographer-adult-attire-v3/state/PROJECT_STATE.json"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-05T10:01:30Z",
+  "updated_at": "2026-09-05T10:35:00Z",
   "updated_by": "BUILDER"
 }
