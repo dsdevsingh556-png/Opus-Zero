@@ -1,0 +1,33 @@
+{
+  "gate_version": "1.2.0",
+  "project_id": "photographer-adult-attire-v3",
+  "handoff_id": "HO-20260905-PAAv3-003",
+  "steps_completed": [
+    "FORENSIC_AUDIT",
+    "MINIMAL_REPAIR_NONE",
+    "RE_READ",
+    "RE_AUDIT",
+    "STRUCTURAL_QA"
+  ],
+  "forensic_status": "PASS",
+  "qa_status": "PASS",
+  "defects": [],
+  "defect_counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "package_claim": "PACKAGE_CLAIM_BLOCKED",
+  "baseline_lock_tip": "3ab17bdf3e1b1fa79be1f3f30c1c7224a024acfa",
+  "ingest_tip": "3ea96d6ba7608c5ebf0994e59426b34796240d3f",
+  "audited_at": "2026-09-05T11:03:00Z",
+  "audited_by": "BUILDER",
+  "scope": "Shape B ingested pack forensic QA; no web app; no package claim",
+  "manifest_sha_checks": {
+    "matched": 6,
+    "mismatched": 0,
+    "details_mismatch": []
+  }
+}
