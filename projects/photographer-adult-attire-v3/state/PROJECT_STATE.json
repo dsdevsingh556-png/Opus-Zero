@@ -26,13 +26,13 @@
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [
-    "INGEST_PARTIAL: references/SOURCE_FILES/scripts may still be landing"
+    "INGEST_PARTIAL: missing state was not yet on GitHub at last check; references/SOURCE_FILES/scripts may still be landing"
   ],
   "last_builder_handoff_id": "HO-20260905-PAAv3-001",
   "last_assistant_guidance": "SENT handoff shape B ingest",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "1362aa797c52f0091607225381f5acfcd6bbc6bb",
+    "commit_sha": "b24b5f309144be0622a533fc3d906d77f2670c01",
     "paths": [
       "projects/photographer-adult-attire-v3/",
       "projects/photographer-adult-attire-v3/source/PHOTOGRAPHER_ADULT_ATTIRE_V3/",
