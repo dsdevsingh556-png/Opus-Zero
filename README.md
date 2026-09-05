@@ -1,16 +1,11 @@
-# OPUS ZERO — TWO-PROJECT SYSTEM v1.1.0
+# Opus-Zero
 
-This repository is the technical vault for the OPUS ZERO two-Project operating system.
+Three-role system: **Chief of Staff** · **Assistant** · **Builder** (v1.2.0).
 
-- **OPUS ZERO BUILDER** — execution-side Project Factory.
-- **OPUS ZERO ASSISTANT** — human-facing controller, state reconciler, translator and exact Builder-instruction generator.
-- **Coda** — shared structured control plane.
-- **GitHub** — shared technical artifact/version vault.
+- Live state: GitHub-primary under `projects/<PROJECT_ID>/state/PROJECT_STATE.json`
+- Coda: optional mirror (degrade when blocked)
+- Contract kit: `contract-kit/`
+- First project: see `FIRST_PROJECT.md`
+- Modes: Operator vs Simple in `modes/OPERATOR_AND_SIMPLE.md`
 
-The two ChatGPT Projects do not share hidden conversation state. Shared state is therefore externalized through verified Coda/GitHub records.
-
-## Repository rule
-All future downstream projects receive a stable `PROJECT_ID` and belong under `projects/<PROJECT_ID>/`. Do not place unrelated project artifacts at repository root.
-
-## Release
-v1.1.0 introduces the two-Project separation and shared-state contract. Full local source packs and ZIP releases are maintained alongside the canonical text architecture.
+Repo: technical vault + live operational state.

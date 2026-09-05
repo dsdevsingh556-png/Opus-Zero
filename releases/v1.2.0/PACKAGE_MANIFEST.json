@@ -1,0 +1,233 @@
+{
+  "package": "OPUS ZERO \u2014 THREE-ROLE SYSTEM",
+  "version": "1.2.0",
+  "status": "STRUCTURALLY_CHECKED",
+  "file_count": 45,
+  "files": [
+    {
+      "path": "FIRST_PROJECT.md",
+      "sha256": "8002c63da95d2c3e2f247ac1c7b2afaacd12080b0dce364c0f93e16174420c55",
+      "bytes": 306
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "sha256": "82b419ac6589e7e9036eac9f693da43ecabced19b6dcf93941a73ea12db018c3",
+      "bytes": 5304
+    },
+    {
+      "path": "README.md",
+      "sha256": "e7a49ec2d69cb1a951e42b5fca9d3580786bc2c3bf9ecbb1840a8eb7238b506f",
+      "bytes": 607
+    },
+    {
+      "path": "assistant/01_PROJECT_INSTRUCTIONS.md",
+      "sha256": "818ce1c18bf69ed15265d22655484a79195e362de3d5295e223adb63be2b94d2",
+      "bytes": 1739
+    },
+    {
+      "path": "assistant/02_ASSISTANT_CONSTITUTION.md",
+      "sha256": "1fef71e2b827a32a11dff8734bae198f5ec45428f80af1febeabc58a3c0ce18a",
+      "bytes": 595
+    },
+    {
+      "path": "assistant/03_STATE_RECONCILIATION_PROTOCOL.md",
+      "sha256": "a4cd9363c6b0310189460d989e469f77753ce4b727f32bbe11ad8e7e23dc956b",
+      "bytes": 638
+    },
+    {
+      "path": "assistant/04_HUMAN_TO_BUILDER_TRANSLATION.md",
+      "sha256": "42c8b1933cf1b2f257a95b6bc198ddbfbbc33290b7a507320c36befd7f3a42d6",
+      "bytes": 644
+    },
+    {
+      "path": "assistant/05_HANDOFF_PROTOCOL.md",
+      "sha256": "2f58d29e4ace407b59f8dbfa70d6a2053b64e0f225ca4a19db0ddf73a243fdc0",
+      "bytes": 381
+    },
+    {
+      "path": "assistant/06_CODA_GITHUB_OPERATING_PROTOCOL.md",
+      "sha256": "ae8ac52525a2823e4bdfc1451532de6d594440ffb5dc0e523bc7fdbd4c4fa86a",
+      "bytes": 545
+    },
+    {
+      "path": "assistant/07_ASSISTANT_QA.md",
+      "sha256": "f0231a493e77fbb2c2ef9e20c1560656e479f6d63f75fa6767856e9536abd241",
+      "bytes": 477
+    },
+    {
+      "path": "assistant/SOURCE_MANIFEST.md",
+      "sha256": "551a6162cf27d058dcb966dab04e4c180a9a946caf3ca34d84250ff8135d3c9c",
+      "bytes": 450
+    },
+    {
+      "path": "builder/01_PROJECT_INSTRUCTIONS.md",
+      "sha256": "9a8ae23e3c212ebfc7d76208783e66b1de2512574c4478d4d2c1bb21d1d0a2c4",
+      "bytes": 2361
+    },
+    {
+      "path": "builder/02_CONSTITUTION.md",
+      "sha256": "d8a7c2bcde49ec739504ba38e2476df9551d4546194c619097e122d6d9c8e978",
+      "bytes": 982
+    },
+    {
+      "path": "builder/03_OPERATING_PROTOCOL.md",
+      "sha256": "090d4c84a83fa7f8bff40f13334e4867dfba33b9078f45b2c6c595b5eb8316b2",
+      "bytes": 914
+    },
+    {
+      "path": "builder/04_REQUIREMENT_ENGINEERING.md",
+      "sha256": "266ace8eebcbcff77981291e462e1530df495917af72eb128418770d4be56bb2",
+      "bytes": 423
+    },
+    {
+      "path": "builder/05_DEEP_RESEARCH.md",
+      "sha256": "daacbeabc5042a3de86682a476558fdaf91033c8ff7fb36b732ce0b7ec32b273",
+      "bytes": 466
+    },
+    {
+      "path": "builder/06_ARCHITECTURE.md",
+      "sha256": "6b29c05e152961744689f877d44b47ecacdbfb528e39ec0d60a7d37b7a6ea861",
+      "bytes": 877
+    },
+    {
+      "path": "builder/07_SOURCE_ENGINEERING.md",
+      "sha256": "258e329daec47f9f2a7764bf946e218f23bc5a1f40e099dbb1d4d8c565e502a8",
+      "bytes": 303
+    },
+    {
+      "path": "builder/08_FORENSIC_REPAIR.md",
+      "sha256": "0876059644a89ebed7f9d1c025791c8d4e1d200464bc47394eca05e9f4907c19",
+      "bytes": 491
+    },
+    {
+      "path": "builder/09_QA.md",
+      "sha256": "c1cc5f59b30d9c4d319b76b983ba848d64a057a0562b5e0dcf3edaff331d3f15",
+      "bytes": 424
+    },
+    {
+      "path": "builder/10_CHANGE_MANAGEMENT.md",
+      "sha256": "5192b9a6f9d06b0e1dddb68dc0ef73965e1cb968ce66a780ff08f34a5d8850fa",
+      "bytes": 253
+    },
+    {
+      "path": "builder/11_OUTPUT_PACKAGE.md",
+      "sha256": "8372adaa5802d0868d79ebf7534be2b68b009e6193c6f86e9a879071d436ecf3",
+      "bytes": 398
+    },
+    {
+      "path": "builder/12_ANDROID_BUILD_GUIDE.md",
+      "sha256": "82c7bafb41ac5384c448abfc7fca8d98ad7590c086ec73dcf2bc1d3e1076a4fc",
+      "bytes": 446
+    },
+    {
+      "path": "builder/13_PLATFORM_RESEARCH_REGISTER.md",
+      "sha256": "427262513554b4446c7668628a59467f065c97453ea19c6b66a2aa5b100d9e52",
+      "bytes": 328
+    },
+    {
+      "path": "builder/14_PERSISTENCE_AND_HANDOFF.md",
+      "sha256": "6f3cd17ffd587c6d36bfc465d236611b624c748543730096b04da1a037ca8eac",
+      "bytes": 858
+    },
+    {
+      "path": "builder/SOURCE_MANIFEST.md",
+      "sha256": "b3888b0a2bbde840262e11bc8de7a2a3a2eaf4e91236d85bcd20c42e67c19068",
+      "bytes": 674
+    },
+    {
+      "path": "contract-kit/BUILDER_MODE_GATE.md",
+      "sha256": "5e8c083629c70ae1d8bcb80d677fa9439a20b6310accd46daf3222ae0a33c748",
+      "bytes": 270
+    },
+    {
+      "path": "contract-kit/CONTRADICTION_CHECKLIST.md",
+      "sha256": "d745d0bd4a8991cb2ca384de16f8370f82afd9cc509942cdad934c5eb29e3517",
+      "bytes": 459
+    },
+    {
+      "path": "contract-kit/HANDOFF_TEMPLATE.md",
+      "sha256": "1d21f407ddcb01ceb87d2be229ff6a12b25da19c1bbc700e7eba8159fe421fbf",
+      "bytes": 366
+    },
+    {
+      "path": "contract-kit/README.md",
+      "sha256": "12f0349304e5c8d14a539c9aa0901383bb52d24bf2dc633d56632c074911138b",
+      "bytes": 428
+    },
+    {
+      "path": "contract-kit/STATE_AUTHORITY.md",
+      "sha256": "8fb4f47ea2706cb1dbdbf67077fdf6e25873a613e8b8199e771f11175c8a4351",
+      "bytes": 300
+    },
+    {
+      "path": "metrics/METRICS.md",
+      "sha256": "89bf0793c319d52c308ed19a8e540f9d43229639530747a3ba7a47ad693b16b2",
+      "bytes": 312
+    },
+    {
+      "path": "modes/OPERATOR_AND_SIMPLE.md",
+      "sha256": "524aac2f60ce4694b61473750b682505cb106445e5bfe9a5708c684c4d5fc551",
+      "bytes": 555
+    },
+    {
+      "path": "projects/_TEMPLATE/README.md",
+      "sha256": "c7fda68262646f4c2d13a44eae09cdccbc0bfc38dabf4fab840caea12a741d89",
+      "bytes": 100
+    },
+    {
+      "path": "projects/_TEMPLATE/handoffs/SAMPLE_HANDOFF.md",
+      "sha256": "5dc9cf7f8997ad60b54478186f51f156a5a3659689e435e86089da6be237ad19",
+      "bytes": 90
+    },
+    {
+      "path": "projects/_TEMPLATE/state/PROJECT_STATE.json",
+      "sha256": "700d1f7312c16c66526b2495ea5548f1d84e5bdcc4d714f03b85d54a396442f0",
+      "bytes": 949
+    },
+    {
+      "path": "shared/CODA_SCHEMA.md",
+      "sha256": "f8dfea539e7a3d22731dc73bee88b554167b82657f446fd19a3c70017d506e50",
+      "bytes": 613
+    },
+    {
+      "path": "shared/CONTROL_PLANE.md",
+      "sha256": "082e7ba54a25e2cb194b56be2138fe0adcd7a78d1f907abdb74a547b104917a2",
+      "bytes": 642
+    },
+    {
+      "path": "shared/EVENT_SCHEMA.md",
+      "sha256": "2f38ea58cd38f5802c988a5d701780b280450f13d3956449ef80f8429c34a84a",
+      "bytes": 298
+    },
+    {
+      "path": "shared/FORENSIC_QA_GATE.md",
+      "sha256": "af6b0bf43e735ae052c186c9bd34024c8f1e3581e6947b50ee1496391e551ba5",
+      "bytes": 262
+    },
+    {
+      "path": "shared/GITHUB_LAYOUT.md",
+      "sha256": "9036cf00a4997904cc319a922c5ab44f9bf6be377004d8fd4d22539adabea366",
+      "bytes": 536
+    },
+    {
+      "path": "shared/HANDOFF_SCHEMA.md",
+      "sha256": "b31b1fa471c877410a594efd4fbc34b09acad217d470da055d4d6e489aa31cb5",
+      "bytes": 810
+    },
+    {
+      "path": "shared/INTERPROJECT_CONTRACT.md",
+      "sha256": "e814242d973fe8bcf8b505435cc7b7ae5e7d22bea2d0eed1d29f023b4c664bad",
+      "bytes": 2071
+    },
+    {
+      "path": "shared/PROJECT_STATE_SCHEMA.md",
+      "sha256": "1550a710928fbb82d82daea078c680a7a806d4049e72c75a72ae6045d688260b",
+      "bytes": 1221
+    },
+    {
+      "path": "shared/PROJECT_TREE.md",
+      "sha256": "eaabc802e5e07c61b0737ca9dd3c22edc2dd73cfd57b149c0f57d615260c04a2",
+      "bytes": 1176
+    }
+  ]
+}
