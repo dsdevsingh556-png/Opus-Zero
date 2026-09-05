@@ -2,6 +2,7 @@
   "gate_version": "1.2.0",
   "project_id": "photographer-adult-attire-v3",
   "handoff_id": "HO-20260905-PAAv3-003",
+  "package_claim_handoff_id": "HO-20260906-PAAv3-005",
   "steps_completed": [
     "FORENSIC_AUDIT",
     "MINIMAL_REPAIR_NONE",
@@ -19,12 +20,13 @@
     "LOW": 0,
     "INFO": 0
   },
-  "package_claim": "PACKAGE_CLAIM_BLOCKED",
+  "package_claim": "SHAPE_B_PACK_AND_SKILLS_CLAIMED",
+  "package_claimed_at": "2026-09-05T18:57:26Z",
   "baseline_lock_tip": "3ab17bdf3e1b1fa79be1f3f30c1c7224a024acfa",
   "ingest_tip": "3ea96d6ba7608c5ebf0994e59426b34796240d3f",
   "audited_at": "2026-09-05T11:03:00Z",
   "audited_by": "BUILDER",
-  "scope": "Shape B ingested pack forensic QA; no web app; no package claim",
+  "scope": "Shape B ingested pack forensic QA; package claim cleared for Shape B pack+skills only; no web app",
   "manifest_sha_checks": {
     "matched": 6,
     "mismatched": 0,

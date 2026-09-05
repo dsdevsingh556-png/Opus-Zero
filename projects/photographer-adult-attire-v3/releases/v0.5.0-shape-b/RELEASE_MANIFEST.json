@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.2.0",
+  "project_id": "photographer-adult-attire-v3",
+  "release_id": "REL-20260906-PAAv3-SHAPE-B-001",
+  "version": "0.5.0-shape-b",
+  "shape": "B",
+  "claim": "SHAPE_B_PACK_AND_SKILLS_CLAIMED",
+  "claimed_at": "2026-09-05T18:57:26Z",
+  "claimed_by": "BUILDER",
+  "handoff_id": "HO-20260906-PAAv3-005",
+  "approval": "CoS exact: Shape B package-claim / release; no web app",
+  "baseline_tip": "b942d54597ce0cb30e0e794372b3cd631c049e7b",
+  "gates": {
+    "ingest": "VERIFIED",
+    "requirement_lock": true,
+    "forensic_status": "PASS",
+    "forensic_tip": "201d6e125f2406cc326ce05fa1332db89d72a8ee",
+    "architecture_state": "SHAPE_B_DOCUMENTED",
+    "architecture_tip": "e479762489ad12be9508dc52c2547bfdc1d7a1e4",
+    "package_claim_prior": "PACKAGE_CLAIM_BLOCKED",
+    "package_claim_now": "SHAPE_B_PACK_AND_SKILLS_CLAIMED"
+  },
+  "includes": [
+    "source/PHOTOGRAPHER_ADULT_ATTIRE_V3/ (governing pack)",
+    "skills/SKILL.md",
+    "requirements/REQUIREMENTS_LOCKED.md",
+    "architecture/ (ARCHITECTURE, COMPONENTS, DATA_AND_FLOW, SAFETY_LOCKS, LAYOUT)",
+    "qa/ (FORENSIC_QA_GATE_RESULT, FORENSIC_AUDIT_REPORT, STRUCTURAL_QA)",
+    "state/PROJECT_STATE.json",
+    "events/, handoffs/, artifacts/, research/"
+  ],
+  "excludes": [
+    "web app / UI / API",
+    "runtime Grok Imagine automation service",
+    "Coda-required rows (OPTIONAL_MIRROR_UNAVAILABLE)"
+  ],
+  "non_claims": [
+    "Does not claim live image-model compliance beyond pack structural forensic PASS",
+    "Does not claim web product readiness",
+    "Does not unlock requirements"
+  ],
+  "tips": {
+    "ingest_tip": "3ea96d6ba7608c5ebf0994e59426b34796240d3f",
+    "lock_tip": "3ab17bdf3e1b1fa79be1f3f30c1c7224a024acfa",
+    "forensic_tip": "201d6e125f2406cc326ce05fa1332db89d72a8ee",
+    "architecture_tip": "e479762489ad12be9508dc52c2547bfdc1d7a1e4",
+    "baseline_tip": "b942d54597ce0cb30e0e794372b3cd631c049e7b"
+  }
+}
