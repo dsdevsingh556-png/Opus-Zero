@@ -1,7 +1,7 @@
 {
   "name": "submit-ready",
   "private": true,
-  "version": "0.4.0-pipeline-mvp",
+  "version": "0.5.0-checklist-zip",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "fflate": "^0.8.2",
     "pdf-lib": "^1.17.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
