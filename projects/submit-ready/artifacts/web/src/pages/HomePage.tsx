@@ -1,23 +1,59 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
+import { CHECKLIST_SEAL } from '../pipeline/credit'
+import { allChecklistGreen, evaluateChecklist } from '../pipeline/checklist'
 import { PRESETS, formatBytes, type PresetId } from '../pipeline/presets'
 import { runPipelineOnFile } from '../pipeline/runPipeline'
 import type { FileJob } from '../pipeline/types'
+import { buildPackZip } from '../pipeline/zipPack'
 
-/** Shot D: pipeline MVP — presets + process. No ZIP / checklist yet. */
+/** Shot E: checklist + ZIP + credit seal. Pipeline from shot D. */
 export function HomePage() {
   const [presetId, setPresetId] = useState<PresetId>('job')
   const [customMb, setCustomMb] = useState(2)
   const [jobs, setJobs] = useState<FileJob[]>([])
   const [busy, setBusy] = useState(false)
+  const [zipBytes, setZipBytes] = useState<number | null>(null)
+  const [zipHasSidecar, setZipHasSidecar] = useState(false)
+  const [zipUrl, setZipUrl] = useState<string | null>(null)
+  const [zipError, setZipError] = useState<string | null>(null)
+  const [offlineSession] = useState(true)
 
   const ceiling =
     presetId === 'custom'
       ? Math.max(0.1, customMb) * 1024 * 1024
       : PRESETS.find((p) => p.id === presetId)!.ceilingBytes
 
+  const checklist = useMemo(
+    () =>
+      evaluateChecklist({
+        jobs,
+        ceilingBytes: ceiling,
+        zipBytes,
+        zipHasSidecar,
+        offlineSession,
+      }),
+    [jobs, ceiling, zipBytes, zipHasSidecar, offlineSession],
+  )
+
+  const preZipGreen = checklist.filter((c) => c.id !== 6).every((c) => c.ok)
+  const zipEnabled = allChecklistGreen(checklist)
+
+  const clearZip = () => {
+    if (zipUrl) URL.revokeObjectURL(zipUrl)
+    setZipUrl(null)
+    setZipBytes(null)
+    setZipHasSidecar(false)
+    setZipError(null)
+  }
+
   const onFiles = useCallback(
     async (list: FileList | null) => {
       if (!list?.length) return
+      if (zipUrl) URL.revokeObjectURL(zipUrl)
+      setZipUrl(null)
+      setZipBytes(null)
+      setZipHasSidecar(false)
+      setZipError(null)
       setBusy(true)
       const files = Array.from(list)
       const placeholders: FileJob[] = files.map((f, i) => ({
@@ -25,7 +61,7 @@ export function HomePage() {
         sourceName: f.name,
         sourceBytes: f.size,
         kind: null,
-        status: 'processing',
+        status: 'processing' as const,
       }))
       setJobs(placeholders)
       const out: FileJob[] = []
@@ -36,8 +72,26 @@ export function HomePage() {
       setJobs(out)
       setBusy(false)
     },
-    [ceiling],
+    [ceiling, zipUrl],
   )
+
+  const onBuildZip = async () => {
+    setZipError(null)
+    try {
+      const pack = await buildPackZip(jobs)
+      if (zipUrl) URL.revokeObjectURL(zipUrl)
+      setZipBytes(pack.bytes)
+      setZipHasSidecar(pack.hasSidecar)
+      setZipUrl(URL.createObjectURL(pack.blob))
+      if (pack.bytes > ceiling) {
+        setZipError(`ZIP ${formatBytes(pack.bytes)} exceeds ceiling ${formatBytes(ceiling)}`)
+      }
+    } catch (e) {
+      setZipError(e instanceof Error ? e.message : String(e))
+      setZipBytes(null)
+      setZipHasSidecar(false)
+    }
+  }
 
   return (
     <section>
@@ -50,7 +104,10 @@ export function HomePage() {
           <select
             value={presetId}
             disabled={busy}
-            onChange={(e) => setPresetId(e.target.value as PresetId)}
+            onChange={(e) => {
+              clearZip()
+              setPresetId(e.target.value as PresetId)
+            }}
           >
             {PRESETS.map((p) => (
               <option key={p.id} value={p.id}>
@@ -68,7 +125,10 @@ export function HomePage() {
               step={0.1}
               value={customMb}
               disabled={busy}
-              onChange={(e) => setCustomMb(Number(e.target.value))}
+              onChange={(e) => {
+                clearZip()
+                setCustomMb(Number(e.target.value))
+              }}
             />
           </label>
         ) : null}
@@ -99,21 +159,42 @@ export function HomePage() {
               {j.exifStripped ? ' · EXIF stripped' : ''}
               {j.message ? ` · ${j.message}` : ''}
             </span>
-            {j.status === 'done' && j.outputBlob && j.outputName ? (
-              <>
-                {' '}
-                <a href={URL.createObjectURL(j.outputBlob)} download={j.outputName}>
-                  Download
-                </a>
-              </>
-            ) : null}
           </li>
         ))}
       </ul>
 
-      <p className="muted">
-        Shot D pipeline MVP — ZIP pack and 7-point checklist land in shot E.
-      </p>
+      <div className="checklist-panel" aria-label="7-point checklist">
+        <h2>7-point checklist</h2>
+        <ol>
+          {checklist.map((c) => (
+            <li key={c.id} className={c.ok ? 'check-ok' : 'check-no'}>
+              {c.ok ? '✓' : '○'} {c.label}
+            </li>
+          ))}
+        </ol>
+        <p className="credit-seal" data-credit="checklist-seal">
+          {CHECKLIST_SEAL}
+        </p>
+        <div className="zip-actions">
+          <button type="button" disabled={busy || !preZipGreen} onClick={onBuildZip}>
+            Build ZIP (SUBMITREADY.txt first)
+          </button>
+          {zipEnabled && zipUrl ? (
+            <a className="zip-download" href={zipUrl} download="submitready-pack.zip">
+              Download ZIP
+            </a>
+          ) : (
+            <span className="muted">Download enables when all 7 are green</span>
+          )}
+        </div>
+        {zipBytes != null ? (
+          <p className="muted">
+            ZIP {formatBytes(zipBytes)}
+            {zipHasSidecar ? ' · sidecar present' : ' · sidecar MISSING'}
+          </p>
+        ) : null}
+        {zipError ? <p className="zip-error">{zipError}</p> : null}
+      </div>
     </section>
   )
 }

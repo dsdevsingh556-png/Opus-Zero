@@ -66,3 +66,34 @@ a { color: #1a5f8a; }
 .job { border: 1px solid #d7dde5; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.5rem; background: #fff; }
 .job-done { border-color: #5a9a6a; }
 .job-error, .job-rejected { border-color: #c45; }
+.checklist-panel {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border: 1px solid #d7dde5;
+  border-radius: 8px;
+  background: #fff;
+}
+.checklist-panel h2 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.checklist-panel ol { margin: 0; padding-left: 1.25rem; }
+.check-ok { color: #2d6a3e; }
+.check-no { color: #667788; }
+.credit-seal {
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+  color: #445566;
+  border-top: 1px dashed #d7dde5;
+  padding-top: 0.5rem;
+}
+.zip-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.zip-actions button, .zip-download {
+  font: inherit;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #1a5f8a;
+  background: #1a5f8a;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.zip-actions button:disabled { opacity: 0.45; cursor: not-allowed; }
+.zip-error { color: #c45; }

@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "project_id": "submit-ready",
   "project_name": "SubmitReady",
-  "current_phase": "PIPELINE_MVP",
+  "current_phase": "CHECKLIST_ZIP",
   "current_mode": "READER",
   "builder_mode_target": null,
   "builder_mode_expires_after": "one_response",
@@ -20,32 +20,33 @@
   "architecture_state": "CLIENT_DOCUMENTED",
   "scaffold_state": "WEB_SHELL_READY",
   "pipeline_state": "MVP_READY",
-  "current_artifact": "artifacts/web/src/pipeline/",
-  "current_version": "0.4.0-pipeline-mvp",
+  "checklist_zip_state": "READY",
+  "current_artifact": "artifacts/web/src/pipeline/zipPack.ts",
+  "current_version": "0.5.0-checklist-zip",
   "forensic_status": "NOT_RUN",
   "qa_status": "NOT_RUN",
   "package_claim": "NOT_CLAIMED",
-  "last_event_id": "EVT-20260906-SR-PIPELINE-001",
-  "next_action": "Await CoS exact APPROVED for shot E (checklist + ZIP). No package claim.",
+  "last_event_id": "EVT-20260906-SR-CHECKZIP-001",
+  "next_action": "Await CoS exact APPROVED for shot F (forensic QA → package claim).",
   "persistence_status": {
     "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
-  "last_builder_handoff_id": "HO-20260906-SR-004",
-  "last_assistant_guidance": "HO-SR-004 SENT; CoS APPROVED shot D",
+  "last_builder_handoff_id": "HO-20260906-SR-005",
+  "last_assistant_guidance": "CoS APPROVED shot E live",
   "stack_choice": "vite-react",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "e705a1f474a188768070a4432ca28564c9338a22",
-    "baseline_tip": "586fd716c3e8070654dbb4d91ef2f63c12fbb19d",
+    "commit_sha": "e5028dbd549719e5841e67f347b48a466952f108",
+    "baseline_tip": "c2565b1956359a7194399625db455364cc0b35f2",
     "paths": [
-      "projects/submit-ready/artifacts/web/src/pipeline/",
-      "projects/submit-ready/artifacts/web/src/pages/HomePage.tsx",
-      "projects/submit-ready/state/PROJECT_STATE.json"
+      "projects/submit-ready/artifacts/web/src/pipeline/checklist.ts",
+      "projects/submit-ready/artifacts/web/src/pipeline/zipPack.ts",
+      "projects/submit-ready/artifacts/web/src/pages/HomePage.tsx"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-06T09:55:00Z",
+  "updated_at": "2026-09-06T09:56:00Z",
   "updated_by": "BUILDER"
 }
