@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "project_id": "submit-ready",
   "project_name": "SubmitReady",
-  "current_phase": "CHECKLIST_ZIP",
+  "current_phase": "PACKAGE_CLAIMED",
   "current_mode": "READER",
   "builder_mode_target": null,
   "builder_mode_expires_after": "one_response",
@@ -21,32 +21,32 @@
   "scaffold_state": "WEB_SHELL_READY",
   "pipeline_state": "MVP_READY",
   "checklist_zip_state": "READY",
-  "current_artifact": "artifacts/web/src/pipeline/zipPack.ts",
-  "current_version": "0.5.0-checklist-zip",
-  "forensic_status": "NOT_RUN",
-  "qa_status": "NOT_RUN",
-  "package_claim": "NOT_CLAIMED",
-  "last_event_id": "EVT-20260906-SR-CHECKZIP-001",
-  "next_action": "Await CoS exact APPROVED for shot F (forensic QA → package claim).",
+  "current_artifact": "releases/PACKAGE_CLAIM.md",
+  "current_version": "0.5.0",
+  "forensic_status": "PASS",
+  "qa_status": "PASS",
+  "package_claim": "WEB_CLIENT_V1_CLAIMED",
+  "last_event_id": "EVT-20260906-SR-FORENSIC-001",
+  "next_action": "Optional: CoS APPROVED for GitHub Pages host publish (out of shot F fence). Reader hold.",
   "persistence_status": {
     "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
-  "last_builder_handoff_id": "HO-20260906-SR-005",
-  "last_assistant_guidance": "CoS APPROVED shot E live",
+  "last_builder_handoff_id": "HO-20260906-SR-006",
+  "last_assistant_guidance": "HO-SR-006 SENT; CoS APPROVED shot F",
   "stack_choice": "vite-react",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "e5028dbd549719e5841e67f347b48a466952f108",
-    "baseline_tip": "c2565b1956359a7194399625db455364cc0b35f2",
+    "commit_sha": "PENDING_PUSH",
+    "baseline_tip": "0a9b9edf55cfe3295124cc0e280ee6a0c5611306",
     "paths": [
-      "projects/submit-ready/artifacts/web/src/pipeline/checklist.ts",
-      "projects/submit-ready/artifacts/web/src/pipeline/zipPack.ts",
-      "projects/submit-ready/artifacts/web/src/pages/HomePage.tsx"
+      "projects/submit-ready/qa/",
+      "projects/submit-ready/releases/PACKAGE_CLAIM.md",
+      "projects/submit-ready/state/PROJECT_STATE.json"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-06T09:56:00Z",
+  "updated_at": "2026-09-06T10:00:00Z",
   "updated_by": "BUILDER"
 }

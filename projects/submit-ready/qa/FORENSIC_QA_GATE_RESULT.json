@@ -1,0 +1,32 @@
+{
+  "gate_version": "1.2.0",
+  "project_id": "submit-ready",
+  "handoff_id": "HO-20260906-SR-006",
+  "steps_completed": [
+    "FORENSIC_AUDIT",
+    "MINIMAL_REPAIR_NONE",
+    "RE_READ",
+    "RE_AUDIT",
+    "STRUCTURAL_QA"
+  ],
+  "forensic_status": "PASS",
+  "qa_status": "PASS",
+  "defects": [
+    {"id": "F-01", "severity": "INFO", "summary": "No live browser E2E in this gate"},
+    {"id": "F-02", "severity": "INFO", "summary": "PDF shrink beyond rewrite is MVP fail-closed"},
+    {"id": "F-03", "severity": "INFO", "summary": "Leftover web/.gitkeep"}
+  ],
+  "defect_counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 3
+  },
+  "package_claim": "WEB_CLIENT_V1_CLAIMED",
+  "package_claimed_at": "2026-09-06T10:00:00Z",
+  "baseline_tip": "0a9b9edf55cfe3295124cc0e280ee6a0c5611306",
+  "audited_at": "2026-09-06T10:00:00Z",
+  "audited_by": "BUILDER",
+  "scope": "SubmitReady client web packager v0.5.0 (pipeline+checklist+ZIP); repo claim only; no host deploy; no PAAv3 mix"
+}
