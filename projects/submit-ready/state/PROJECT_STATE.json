@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "project_id": "submit-ready",
   "project_name": "SubmitReady",
-  "current_phase": "SCAFFOLD",
+  "current_phase": "PIPELINE_MVP",
   "current_mode": "READER",
   "builder_mode_target": null,
   "builder_mode_expires_after": "one_response",
@@ -19,32 +19,33 @@
   "research_state": "PLAN_LOCKED",
   "architecture_state": "CLIENT_DOCUMENTED",
   "scaffold_state": "WEB_SHELL_READY",
-  "current_artifact": "artifacts/web/",
-  "current_version": "0.3.0-scaffold",
+  "pipeline_state": "MVP_READY",
+  "current_artifact": "artifacts/web/src/pipeline/",
+  "current_version": "0.4.0-pipeline-mvp",
   "forensic_status": "NOT_RUN",
   "qa_status": "NOT_RUN",
   "package_claim": "NOT_CLAIMED",
-  "last_event_id": "EVT-20260906-SR-SCAFFOLD-001",
-  "next_action": "Await CoS exact APPROVED for shot D (pipeline MVP per preset). No PDF/image processing until approved.",
+  "last_event_id": "EVT-20260906-SR-PIPELINE-001",
+  "next_action": "Await CoS exact APPROVED for shot E (checklist + ZIP). No package claim.",
   "persistence_status": {
     "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
-  "last_builder_handoff_id": "HO-20260906-SR-003",
-  "last_assistant_guidance": "HO-SR-003 SENT; CoS APPROVED shot C",
+  "last_builder_handoff_id": "HO-20260906-SR-004",
+  "last_assistant_guidance": "HO-SR-004 SENT; CoS APPROVED shot D",
   "stack_choice": "vite-react",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "ac6634d5c692394d8efdf8b6cb331e8f1e4f415b",
-    "baseline_tip": "2d82d5c6a6f5a6140a40d8b31e7272eed070f6e8",
+    "commit_sha": "e705a1f474a188768070a4432ca28564c9338a22",
+    "baseline_tip": "586fd716c3e8070654dbb4d91ef2f63c12fbb19d",
     "paths": [
-      "projects/submit-ready/artifacts/web/",
-      "projects/submit-ready/artifacts/web/src/components/ColophonFooter.tsx",
+      "projects/submit-ready/artifacts/web/src/pipeline/",
+      "projects/submit-ready/artifacts/web/src/pages/HomePage.tsx",
       "projects/submit-ready/state/PROJECT_STATE.json"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-06T09:50:00Z",
+  "updated_at": "2026-09-06T09:55:00Z",
   "updated_by": "BUILDER"
 }
