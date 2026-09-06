@@ -1,7 +1,7 @@
 {
   "name": "submit-ready",
   "private": true,
-  "version": "0.3.0-scaffold",
+  "version": "0.4.0-pipeline-mvp",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "pdf-lib": "^1.17.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0"
