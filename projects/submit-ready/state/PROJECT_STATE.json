@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.2.0",
+  "project_id": "submit-ready",
+  "project_name": "SubmitReady",
+  "current_phase": "REQUIREMENT_LOCK",
+  "current_mode": "READER",
+  "builder_mode_target": null,
+  "builder_mode_expires_after": "one_response",
+  "requirements": [
+    "PDF+JPG+PNG only",
+    "Presets Job 2MB / Visa 5MB / Email 10MB / Custom",
+    "Offline-only: no upload/account/telemetry",
+    "7-point checklist green for v1 done",
+    "Colophon credit 1+2+3 required and non-removable",
+    "GitHub Pages host assumption",
+    "No PAAv3 mix"
+  ],
+  "requirement_lock": true,
+  "research_state": "PLAN_LOCKED",
+  "architecture_state": "NOT_STARTED",
+  "current_artifact": "requirements/REQUIREMENTS_LOCKED.md",
+  "current_version": "0.1.0-req-locked",
+  "forensic_status": "NOT_RUN",
+  "qa_status": "NOT_RUN",
+  "package_claim": "NOT_CLAIMED",
+  "last_event_id": "EVT-20260906-SR-REQLOCK-001",
+  "next_action": "Await CoS exact APPROVED for shot B (client architecture) or later shots. No UI this phase.",
+  "persistence_status": {
+    "github": "VERIFIED",
+    "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
+  },
+  "blockers": [],
+  "last_builder_handoff_id": "HO-20260906-SR-001",
+  "last_assistant_guidance": "HO-SR-001 SENT; CoS APPROVED shot A",
+  "evidence": {
+    "repo": "dsdevsingh556-png/Opus-Zero",
+    "commit_sha": "PENDING_PUSH",
+    "baseline_tip": "e3e5aae6e869f7f0c618d7140c7e1d46225ef627",
+    "paths": [
+      "projects/submit-ready/",
+      "projects/submit-ready/requirements/REQUIREMENTS_LOCKED.md",
+      "projects/submit-ready/CREDIT.md",
+      "projects/submit-ready/state/PROJECT_STATE.json"
+    ],
+    "coda_row_ids": []
+  },
+  "updated_at": "2026-09-06T09:22:38Z",
+  "updated_by": "BUILDER"
+}
