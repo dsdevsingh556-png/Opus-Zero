@@ -1,0 +1,10 @@
+# EVT-20260906-SR-SCAFFOLD-001
+TYPE: WEB_SCAFFOLD
+PROJECT_ID: submit-ready
+SHOT: C
+HANDOFF: HO-20260906-SR-003
+AT: 2026-09-06T09:50:00Z
+ACTOR: BUILDER
+RESULT: artifacts/web Vite+React shell · HashRouter stubs · ColophonFooter · no pipeline
+BASELINE_TIP: 2d82d5c6a6f5a6140a40d8b31e7272eed070f6e8
+STACK_CHOICE: React

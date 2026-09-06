@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "project_id": "submit-ready",
   "project_name": "SubmitReady",
-  "current_phase": "ARCHITECTURE",
+  "current_phase": "SCAFFOLD",
   "current_mode": "READER",
   "builder_mode_target": null,
   "builder_mode_expires_after": "one_response",
@@ -18,31 +18,33 @@
   "requirement_lock": true,
   "research_state": "PLAN_LOCKED",
   "architecture_state": "CLIENT_DOCUMENTED",
-  "current_artifact": "architecture/ARCHITECTURE.md",
-  "current_version": "0.2.0-arch-documented",
+  "scaffold_state": "WEB_SHELL_READY",
+  "current_artifact": "artifacts/web/",
+  "current_version": "0.3.0-scaffold",
   "forensic_status": "NOT_RUN",
   "qa_status": "NOT_RUN",
   "package_claim": "NOT_CLAIMED",
-  "last_event_id": "EVT-20260906-SR-ARCH-001",
-  "next_action": "Await CoS exact APPROVED for shot C (scaffold artifacts/web/) or later. No UI/pipeline until approved.",
+  "last_event_id": "EVT-20260906-SR-SCAFFOLD-001",
+  "next_action": "Await CoS exact APPROVED for shot D (pipeline MVP per preset). No PDF/image processing until approved.",
   "persistence_status": {
     "github": "VERIFIED",
     "coda": "OPTIONAL_MIRROR_UNAVAILABLE"
   },
   "blockers": [],
-  "last_builder_handoff_id": "HO-20260906-SR-002",
-  "last_assistant_guidance": "CoS APPROVED shot B client architecture",
+  "last_builder_handoff_id": "HO-20260906-SR-003",
+  "last_assistant_guidance": "HO-SR-003 SENT; CoS APPROVED shot C",
+  "stack_choice": "vite-react",
   "evidence": {
     "repo": "dsdevsingh556-png/Opus-Zero",
-    "commit_sha": "cdf835a672718325e7e6421ae3d07f86d4d43819",
-    "baseline_tip": "16bb36173199935e9800e8e0b2d4489f771474b9",
+    "commit_sha": "ac6634d5c692394d8efdf8b6cb331e8f1e4f415b",
+    "baseline_tip": "2d82d5c6a6f5a6140a40d8b31e7272eed070f6e8",
     "paths": [
-      "projects/submit-ready/architecture/",
-      "projects/submit-ready/architecture/ARCHITECTURE.md",
+      "projects/submit-ready/artifacts/web/",
+      "projects/submit-ready/artifacts/web/src/components/ColophonFooter.tsx",
       "projects/submit-ready/state/PROJECT_STATE.json"
     ],
     "coda_row_ids": []
   },
-  "updated_at": "2026-09-06T09:30:00Z",
+  "updated_at": "2026-09-06T09:50:00Z",
   "updated_by": "BUILDER"
 }
