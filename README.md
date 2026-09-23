@@ -1,11 +1,7 @@
-# Opus-Zero
+# Opus-Zero Pages
 
-Three-role system: **Chief of Staff** · **Assistant** · **Builder** (v1.2.0).
+SubmitReady demo removed (HO-SR-PURGE, ordered by Devendra).
 
-- Live state: GitHub-primary under `projects/<PROJECT_ID>/state/PROJECT_STATE.json`
-- Coda: optional mirror (degrade when blocked)
-- Contract kit: `contract-kit/`
-- First project: see `FIRST_PROJECT.md`
-- Modes: Operator vs Simple in `modes/OPERATOR_AND_SIMPLE.md`
+This branch still hosts the Opus-Zero package vault mirror. The SubmitReady web client (`index.html` + `assets/`) is gone — no stub SPA.
 
-Repo: technical vault + live operational state.
+Repo: https://github.com/dsdevsingh556-png/Opus-Zero
